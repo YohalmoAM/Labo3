@@ -30,7 +30,6 @@ cout<< "El promedio de los resultados ingresados es el siguiente:";
 cout<<endl;
 cout<< x;
 
-
 return 0;
 
 }
