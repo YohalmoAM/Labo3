@@ -31,5 +31,4 @@ int main()
     cout << "Gracias por su compra, se le hara su entregara lo mas pronto posible."; 
 
     return 0;
-
 }
