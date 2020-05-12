@@ -3,9 +3,15 @@
 
 using namespace std;
 
+
 int main(){
     int a, b, c;
     float x;
+
+    cout<< "Bienvenido a su programa para calcular la formula del CHICHARRONERO aka Cuadratica.";
+    cout<<endl;
+    cout<< "Por favor digite los numeros que desea calcular:";
+    cout<<endl;
 
     cout<< "ingrese a: ";
     cin>>a;
