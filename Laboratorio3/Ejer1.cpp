@@ -3,21 +3,31 @@
 
 using namespace std;
 
-int main(){
-int a, b, c;
-float x;
+int main(void)
+{
+      int a, b, c;
+      float x;
 
-cout<< "ingrese a:";
+cout<< "Bienvenido a su confiable programa para calcular el promedio de 3 datos enteros.";
+cout<<endl;
+cout<< "A continuacion ingrese los datos que necesite promediar:";
+cout<<endl;
+cout<<endl;
+
+cout<< "Por favor, ingrese a:";
 cin>> a;
 
-cout<< "ingrese b:";
+cout<< "Por favor, ingrese b:";
 cin>> b;
 
-cout<< "ingrese c:";
+cout<< "Por favor, ingrese c:";
+
 cin>> c;
 
 x =  (a + b + c)/3;
 
+cout<< "El promedio de los resultados ingresados es el siguiente:";
+cout<<endl;
 cout<< x;
 
 return 0;
